@@ -1,1 +1,50 @@
-export const transactions = [];
+export const transactions = [
+  {
+    id: "28f079d7-6b12-4a6e-b5b5-f18d82ae3a6c",
+    date: "2024-12-19T09:24:37.160Z",
+    title: "transaction1",
+    category: "Rent",
+    type: "income",
+    amount: 10,
+  },
+  {
+    id: "5ef20081-31a1-41a1-83b7-500aab3c36a3",
+    date: "2024-12-19T09:24:38.909Z",
+    title: "transaction1",
+    category: "Rent",
+    type: "income",
+    amount: 10,
+  },
+  {
+    id: "ad1e3567-81f7-4a84-ae60-dbb32f4d878c",
+    date: "2024-12-19T09:24:52.061Z",
+    title: "transaction1",
+    category: "Food",
+    type: "expense",
+    amount: 10,
+  },
+  {
+    id: "e9c6b156-7026-4e2d-9d15-75e6135dad1d",
+    date: "2024-12-19T09:24:55.371Z",
+    title: "transaction1",
+    category: "Food",
+    type: "expense",
+    amount: 10,
+  },
+  {
+    id: "e8538adf-028f-4690-89c5-573ba38e6136",
+    date: "2024-12-19T09:25:01.391Z",
+    title: "transaction1",
+    category: "Food",
+    type: "expense",
+    amount: 10,
+  },
+  {
+    id: "30499f36-4349-4baa-8d17-e210439dbdc0",
+    date: "2024-12-19T09:25:12.762Z",
+    title: "transaction1",
+    category: "Rent",
+    type: "expense",
+    amount: 10,
+  },
+];

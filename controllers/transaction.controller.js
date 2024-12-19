@@ -12,13 +12,15 @@ export const getAllTransactions = (req, res, next) => {
     // query t for type
     if (req.query.t) {
       filteredTransactions = filteredTransactions.filter(
-        (transaction) => transaction.type === req.query.t
+        (transaction) =>
+          transaction.type.toLowerCase() === req.query.t.toLowerCase()
       );
     }
     // query c for categories
     if (req.query.c) {
-      filteredTransactions = filteredTransactions.filter((transaction) =>
-        transaction.categories.includes(req.query.c)
+      filteredTransactions = filteredTransactions.filter(
+        (transaction) =>
+          transaction.category.toLowerCase() === req.query.c.toLowerCase()
       );
     }
 
